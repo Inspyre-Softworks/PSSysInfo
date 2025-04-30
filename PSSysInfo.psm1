@@ -69,5 +69,7 @@ function Get-SystemInfo {
     }
 }
 
+Set-Alias -Name gsys -Value Get-SystemInfo
+
 Export-ModuleMember -Function Get-SystemInfo -Alias gsys
 
